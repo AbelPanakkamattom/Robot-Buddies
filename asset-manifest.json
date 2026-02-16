@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AbelPanakkamattom/Robot-Buddies/static/css/main.fe029f6a.css",
+    "main.js": "/AbelPanakkamattom/Robot-Buddies/static/js/main.518642a2.js",
+    "static/js/453.fd30ee1b.chunk.js": "/AbelPanakkamattom/Robot-Buddies/static/js/453.fd30ee1b.chunk.js",
+    "static/media/SEGA.woff": "/AbelPanakkamattom/Robot-Buddies/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/AbelPanakkamattom/Robot-Buddies/index.html",
+    "main.fe029f6a.css.map": "/AbelPanakkamattom/Robot-Buddies/static/css/main.fe029f6a.css.map",
+    "main.518642a2.js.map": "/AbelPanakkamattom/Robot-Buddies/static/js/main.518642a2.js.map",
+    "453.fd30ee1b.chunk.js.map": "/AbelPanakkamattom/Robot-Buddies/static/js/453.fd30ee1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe029f6a.css",
+    "static/js/main.518642a2.js"
+  ]
+}

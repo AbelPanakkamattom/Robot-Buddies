@@ -2,25 +2,25 @@ import React, {Component} from 'react';
 import CardList from '../Components/CardList.js';
 import Scroll from '../Components/Scroll.js';
 import Searchbox from '../Components/Searchbox.js';
-/*import {Robot} from './Robot.js';*/
+import {Robot} from '../Robot.js';
 import './App.css';
 
 class App extends Component {
     constructor() {
         super()
         this.state ={
-        Robot: [] /*Robot,*/,
+        Robot: Robot/*[]*/,
         searchfield:''
 }
     }
     
     componentDidMount() {
         
-     fetch('https://jsonplaceholder.typicode.com/users')
-     /*fetch('Robot.js')*/
+     /*fetch('https://jsonplaceholder.typicode.com/users')*/
+     fetch('Robot.js')
      .then(response=> response.json())
      .then(user => this.setState({Robot: user}));
-        /*this.setState({Robot: Robot});*/
+        this.setState({Robot: Robot});
     }
 
     onSearchChange = (event) => {
